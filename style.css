@@ -1,0 +1,88 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  color: #222;
+  background-color: #f9f9f9;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.navbar {
+  background: #101828;
+  color: white;
+  padding: 20px 0;
+}
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hero {
+  background: linear-gradient(135deg, #1f2937, #0f172a);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.btn-primary {
+  background: #d4af37;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.feature-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  flex: 1 1 280px;
+  max-width: 320px;
+}
+.contact-section {
+  background: #f0f4f8;
+  padding: 60px 20px;
+}
+.contact-form {
+  display: grid;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+input, textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.footer {
+  background: #101828;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
